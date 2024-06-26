@@ -1,0 +1,4 @@
+EBMParameters: {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (20,), 'learning_rate_init': 0.1, 'solver': 'sgd'}
+Accuracy: 0.9936034115138592
+RMSE: 0.07997867519620917
+F1: 0.98
