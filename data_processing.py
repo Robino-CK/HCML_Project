@@ -55,4 +55,5 @@ def get_data():
 def data_selected_features():
     X,y = load_nasa()
     X = X[["Minimum Orbit Intersection", "Absolute Magnitude", "Est Dia in KM(min)", "Eccentricity"]]
+    X.rename(columns={'Minimum Orbit Intersection': 'MOI', 'Absolute Magnitude': 'AM', "Est Dia in KM(min)": "EDKM" }, inplace=True)
     return prepare_data(X, y)
