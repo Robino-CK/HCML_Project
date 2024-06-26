@@ -54,5 +54,5 @@ def get_data():
 
 def data_selected_features():
     X,y = load_nasa()
-    X = X[["Minimum Orbit Intersection", "Absolute Magnitude", "Est Dia in KM(min)", "Eccentricity", "Mean Motion", "Inclination", "Perihelion Distance"]]
+    X = X[["Minimum Orbit Intersection", "Absolute Magnitude", "Est Dia in KM(min)", "Eccentricity"]]
     return prepare_data(X, y)
